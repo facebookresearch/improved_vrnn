@@ -23,7 +23,7 @@ def get_dataset(config):
         )
 
         val_dataset = MovingMNIST(
-            True,
+            False,
             seq_len=config['seq_len'],
             deterministic=False
         )
