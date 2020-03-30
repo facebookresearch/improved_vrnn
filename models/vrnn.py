@@ -9,9 +9,8 @@ import torch.nn.functional as F
 from torch import nn
 from torch.distributions import Normal
 
-import layers
+from layers import *
 import flows
-from vrnn_layers import *
 
 
 class Model(nn.Module):
